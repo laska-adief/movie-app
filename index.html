@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./dist/img/television.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <title>Movie App</title>
+  </head>
+  <body>
+    <header>
+      <img src="dist/img/television.png" alt="icon-app" class="iconApp" />
+      <h1 class="titleApp">Movie App</h1>
+    </header>
+
+    <main>
+      <form class="formSearch" id="formSearch">
+        <input
+          type="text"
+          name="keyword"
+          id="keyword"
+          placeholder="Search Movie"
+          class="inputKeyword"
+          autocomplete="off"
+        />
+        <button class="btnSearch" id="btnSearch">Search</button>
+      </form>
+      <div class="movies" id="movies">
+        <h3>Type in the input field then click button search</h3>
+      </div>
+    </main>
+
+    <footer>
+      <div class="author">Created by Laska</div>
+      <div class="socmed">
+        <a href="https://www.instagram.com/laskadief/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://web.facebook.com/laska.adief" target="_blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a href="https://github.com/laska-adief" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="./dist/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+@media screen and(min-width:998px) {
+  // main
+  main {
+    .formSearch {
+      .inputKeyword {
+        width: 40%;
+      }
+    }
+    .movies {
+      flex-direction: initial;
+    }
+
+    .movie {
+      width: 300px;
+      margin-bottom: 1rem;
+    }
+  }
+}

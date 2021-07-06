@@ -1,0 +1,22 @@
+footer {
+  height: 8vh;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $cl-light;
+
+  .author {
+    margin-bottom: 0.5rem;
+  }
+
+  .socmed a {
+    color: $cl-light;
+    margin: 0 0.5rem;
+
+    &:hover {
+      color: $cl-yellow-dark;
+    }
+  }
+}

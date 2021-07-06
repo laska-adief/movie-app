@@ -1,0 +1,17 @@
+header {
+  height: 12vh;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  .iconApp {
+    width: 50px;
+  }
+
+  .titleApp {
+    color: $cl-white;
+  }
+}
